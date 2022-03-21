@@ -202,6 +202,7 @@ h3{
 
 .authentic{
     padding-top: 3em;
+    height:50%;
     
 }
 
@@ -236,7 +237,7 @@ h3{
 .footer{
     background: #303036;
     color: #d3d3d3;
-    height: 250px;
+    height: 50%;
     position: relative;
     width: 100%;
 
@@ -267,9 +268,7 @@ font-size: .9rem;
 }
 
 
-.col{
-    padding: 2em 3em;
-}
+
 
 
 .all-content{
@@ -285,7 +284,7 @@ font-size: .9rem;
 
 /* medea queries*/
 
-@media(min-width: 730px){
+@media(min-width: 375px){
 
     section{
         margin: 0 4em;
@@ -296,6 +295,12 @@ font-size: .9rem;
    } 
 
 }
+
+
+.footer-details{
+    text-align: center;
+    font-size: .8rem;
+    }
 
 
 
