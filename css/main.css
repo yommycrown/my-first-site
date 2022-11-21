@@ -13,7 +13,7 @@ html, body{
 }
 
 .hero-bg{
-    background: #307D99 url('../images/bg.jpg');
+    background: #307D99 url('../images/ceo.jpg');
     background-position: 12% 83%;
     color: white;
     text-align: center;
@@ -37,9 +37,9 @@ header{
 
 
 .topnav a{
-    background-color: transparent;
+    color: rgb(254, 254, 255);
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 5px;
     font-size: 1rem;
     font-weight: bolder;
 
@@ -47,9 +47,10 @@ header{
 
 
 .topnav a:hover {
-    background-color: rgba(185, 105, 13, 0.9);
-    border-radius: 2em;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
     padding-left: .5em;
+    color: rgb(252, 252, 252);
 
    
 }
@@ -179,18 +180,18 @@ a{
 
 
 .avatar{
-    border-radius: 50%;
-    background: url(../images/mine.jpg);
-    width: 10em;
-    height: 10em;
-    background-size: cover;
+    border-radius: 30%;
+    width: 50%;
+    height: auto;
+   
+  
 }
 
 
 h3{
     font-weight: bold;
     padding-top:0em;
-    padding-left:2em;
+    padding-left:1rem;
     color: grey;
 }
 
@@ -199,15 +200,25 @@ h3{
 }
 
 
+.container{
+    text-align: center;
+    
+}
+
+.content{
+    padding: 30px;
+}
 
 .authentic{
     padding-top: 3em;
+    left: 2rem;
     height:50%;
+  
     
 }
 
 .authentic ,p h3{
-    padding-left: 3em;
+  
     
 }
 
@@ -238,8 +249,11 @@ h3{
     background: #303036;
     color: #d3d3d3;
     height: 50%;
-    position: relative;
+    position: absolute;
     width: 100%;
+    padding: 20px;
+    text-align: center;
+
 
 
 }
@@ -247,6 +261,10 @@ h3{
 .footer-details{
 text-align: center;
 font-size: .9rem;
+bottom: 0px;
+padding-top: 30px;
+display: flex;
+
 }
 
 
@@ -329,8 +347,12 @@ font-size: .9rem;
     .footer-details{
         text-align: left;
         margin: none;
+        padding-left: 30px;
         }
-
+        .footer{
+            text-align: center;
+            padding-top: 30px;
+        }
 
 
     .topnav a{
@@ -415,11 +437,11 @@ section.authentic{
 
  img{
 
-    width: 70%;
-    height: 15em;
-    padding-top: 1em;
-    border-radius: 0;
-    padding-left: 5em;
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    border-radius: 30px;
+    padding-left: 3px;
 }
 
 
